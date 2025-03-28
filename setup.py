@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ai_thoughts",
+    name="ia-agents",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
@@ -16,11 +16,10 @@ setup(
         "transformers>=4.36.0",
     ],
     python_requires=">=3.10",
-    author="Thorrdu",
-    description="Projet IA basé sur Archon, LangChain et Pydantic",
+    author="Your Name",
+    description="Projet d'agents IA basé sur Archon et LangChain",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3.10",
     ],
 ) 

@@ -1,7 +1,7 @@
 ---
 description: 
 globs: 
-alwaysApply: false
+alwaysApply: true
 ---
 📑 Règles Générales :
 
@@ -18,3 +18,9 @@ alwaysApply: false
     6️⃣ Automatiser les tests pour valider chaque étape
 
     7️⃣ Stocker les logs des installations dans un fichier dédié (install_logs.txt)
+
+Available models
+- **Mixtral 8x7B** : Modèle de langage multilingue puissant.
+- **Dolphin Mixtral** : Modèle optimisé pour les instructions.
+- **CodeLlama 34B** : Modèle de code haute qualité.
+- **DeepSeek Coder** : Modèle spécialisé pour le développement.

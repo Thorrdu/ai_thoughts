@@ -1,0 +1,13 @@
+Crée un projet IA basé sur Archon (https://github.com/coleam00/Archon), LangChain et Pydantic, exécuté localement et utilisant CUDA et cuDNN si disponibles.
+Le projet devra permettre de créer et orchestrer plusieurs agents IA, leur donnant accès aux outils suivants :
+
+    🔎 Recherche web (GoogleSearchAPI ou SerpAPI ou DuckDuckGo OU web socket ou browserless navigation)
+
+    📂 Lecture et modification de fichiers (édition de code)
+
+    💻 Exécution de commandes système
+
+    🗂 Utilisation d'une base de données vectorielle avec ChromaDB ou supabase
+
+Assure-toi que l'installation se fait proprement, en vérifiant chaque étape, et en automatisant les tests.
+Une fois le projet installé, teste la création d’un agent simple et l'interaction avec un modèle IA local via Ollama.

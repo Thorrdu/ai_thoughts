@@ -1,0 +1,11 @@
+Crée une liste détaillée de toutes les tâches nécessaires pour installer et configurer un environnement IA en local utilisant Archon, LangChain et Pydantic.
+Assure-toi d'inclure :
+
+    L’installation des dépendances Python (Archon, LangChain, Pydantic, ChromaDB, Ollama)
+
+    La vérification de la compatibilité GPU (CUDA 12.8, cuDNN 9)
+
+    La mise en place des agents IA avec leurs capacités (web search, édition de fichiers, exécution de code)
+
+    La configuration et les tests pour valider l’installation.
+    Toutes les étapes doivent être détaillées pour permettre une exécution sans erreur.

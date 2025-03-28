@@ -1,0 +1,34 @@
+🔹 2. Liste Exhaustive des Tâches à Effectuer
+📌 Étape 1 : Préparation de l’environnement
+
+✅ Créer un projet avec Python 3.10+ (attention à la compatibilité, la dernière version n'est peut être pas la meilleure)
+✅ Configurer un environnement virtuel (venv)
+✅ Installer pip, git et setuptools si nécessaire
+✅ Vérifier la compatibilité GPU (CUDA, cuDNN)
+📌 Étape 2 : Installation des Dépendances
+
+✅ Installer Archon (https://github.com/coleam00/Archon)
+✅ Installer LangChain et Pydantic
+✅ Installer Ollama et récupérer un modèle (Mistral, LLaMA, Gemma)
+✅ Installer ChromaDB et supabase pour la base de données vectorielle
+📌 Étape 3 : Configuration des Agents IA
+
+✅ Définir les rôles des agents et leurs capacités
+✅ Connecter les agents aux outils :
+
+    🔎 Recherche web (GoogleSearchAPI ou SerpAPI ou DuckDuckGo OU web socket ou browserless navigation)
+
+    📂 Édition de fichiers (lecture/écriture de code)
+
+    🛠 Exécution de commandes système
+
+📌 Étape 4 : Validation des Installations
+
+✅ Vérifier que chaque package est installé et fonctionnel
+✅ Tester l'exécution d’un agent simple avec Archon
+✅ Tester la génération de texte avec un LLM local via Ollama
+✅ Vérifier la persistance des données vectorielles via ChromaDB ou Supabase
+📌 Étape 5 : Automatisation et Optimisation
+
+✅ Créer un script setup.py pour automatiser l’installation
+✅ Générer un script de démarrage pour lancer tous les services IA
